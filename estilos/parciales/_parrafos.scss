@@ -1,0 +1,3 @@
+@for $i from 1 through 2 {
+.p-#{$i} { padding: 2em *$i; }    
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Indumentaria femenina, contactos">
+    <meta name="keywords" content="ROPA, MUJER, CONTACTOS">
+    <title>BEQUIAN - Contacto</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                      <li><a href="../index.html">inicio</a></li>
+                      <li><a href="../Navegador/acercadenosotros.html">acerca de nosotros</a></li>
+                      <li><a href="../Navegador/productos.html">productos</a></li>
+                      <li><a href="../Navegador/ofertas.html">ofertas</a></li>
+                      <li><a href="#">contacto</a></li>
+         
+         </ul>
+         </nav>
+         
+         ><img src="LOGO" alt="">
+         <p>indumentaria femenina</p>
+         <aside><p>carrito de compras</p></aside>
+    
+        </header>
+        <form action="" method="get" enctype="text/plain">
+            <fieldset>
+                <legend>Información personal</legend>
+
+                <label for="sexo">Seleccione su sexo:</label>
+                <input type="radio" name="usersex" id="sexo" value="masculino">Hombre
+                <input type="radio" name="usersex" id="sexo" value="femenino">Mujer
+
+                <br>
+                <br>
+                <label for="info-personal">Nombre</label>
+                <input type="text" name="username" id="info-personal" placeholder="Nombre">
+                <br>
+                <br>
+                <label for="info-personal">Apellido</label>
+                <input type="text" name="userlastname" id="info-personal" placeholder="Apellido">
+                <br>
+                <br>
+                <label for="tallas">Talle</label>
+                <select name="userzise" id="tallas">
+                <option value="" disabled selected>Seleccione su talle</option>    
+                <option value="L">Large</option>
+                <option value="M">Medium</option>
+                <option value="S">Small</option>
+                
+            </select>
+            <br>
+            <br>
+            <label for="mensaje">Envie su comentario</label>
+            <br>
+            <textarea name="txt-msg" id="mensaje" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <label for="condition">Acepta las condiciones:</label>
+            <input type="checkbox" name="mandatory" id="condition" value="1">
+            <br>
+            <br>
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar"> 
+
+
+
+            </fieldset>
+
+
+        </form>
+    
+</body>
+</html>

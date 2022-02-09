@@ -1,0 +1,13 @@
+@mixin table { 
+    @media  and (max-width: 768px) {
+        @content;
+    }
+        
+}
+    
+@mixin movil { 
+    @media  and (max-width: 320px) {
+        @content;
+    }
+        
+}
